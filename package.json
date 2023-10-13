@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "antora": "antora",
-    "build": "antora site.yml"
+    "build": "antora site.yml",
+    "start": "http-server build/site"
   },
   "keywords": [],
   "author": "Leonardo Zhang",

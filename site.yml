@@ -2,7 +2,7 @@ site:
   title: 歪玩语言
   # url: https://le02h.github.io/PL
   robots: allow
-  start_page: component-a::index.adoc
+  start_page: ROOT::index.adoc
   keys:
     google_analytics:
 content:
