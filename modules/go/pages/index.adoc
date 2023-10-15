@@ -1,1 +1,16 @@
 = Go 语言
+:url-tour: https://go.dev/tour/welcome/1
+:url-tour-zh: https://tour.go-zh.org
+:url-spec: https://go.dev/ref/spec
+:url-vnpy: https://github.com/vnpy
+
+`Go`` 语言是 Google 2009 年开发的一款，本来用于替代 `C/C++`` 语言的，以并发为主打特性的语言。
+我学 `Go` 语言的初衷是想使用 `Go` 语言重写 {url-vnpy}[VN.PY]，现在似乎正式名称叫 VeighNa 了。
+
+== 关键字
+
+include::partial$keywords.adoc[]
+
+== 操作符与标记符号
+
+include::partial$operators-and-punctuation.adoc[]

@@ -1,1 +1,7 @@
+.Go 语言
 * xref:index.adoc[]
+* 安装开发环境
+* Hello, World
+* 基础语法
+** xref:basic-syntax-if.adoc[]
+* xref:builtin-functions.adoc[]

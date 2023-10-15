@@ -1,0 +1,75 @@
+= 内建函数
+:url-spec: https://go.dev/ref/spec#Built-in_functions
+
+[cols="1,1,1,1,1,1"]
+|===
+|<<append,append>>
+|<<close,close>>
+|<<delete,delete>>
+|<<make,make>>
+|<<new,new>>
+|<<bootstrap,println>>
+
+|<<len-cap,cap>>
+|<<complex,complex>>
+|<<complex,imag>>
+|<<min-max,max>>
+|<<panic-recover,panic>>
+|<<complex,real>>
+
+|<<clear,clear>>
+|<<copy,copy>>
+|<<len-cap,len>>
+|<<min-max,min>>
+|<<bootstrap,print>>
+|<<panic-recover,recover>>
+|===
+
+[#append]
+== 添加元素到 `slice`
+
+.函数原型
+[source,go]
+----
+append(s S, x... E) S  // type of S is []E
+----
+
+.Examples
+[source,go]
+----
+include::example$builtins-append.go[tag=example]
+----
+
+[#copy]
+== copy `slice`
+
+[#clear]
+== Clear
+
+[#close]
+== Close
+
+[#complex]
+== 复数操作
+
+[#delete]
+== 删除 `map` 中的元素
+
+[#len-cap]
+== Length and capacity
+
+[#make]
+== 创建 `slice`、`map` 和 `chan`
+
+[#min-max]
+== `min` 和 `max`
+
+[#new]
+== 分配内存
+
+[#panic-recover]
+== `panic` 和 `recover`
+
+[#bootstrap]
+== Bootstrapping
+
