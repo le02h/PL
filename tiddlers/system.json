@@ -40,4 +40,8 @@
   "title": "$:/config/DefaultSidebarTab",
   "text": "TableOfContents",
   "type": "text/vnd.tiddlywiki"
+}, {
+  "title": "$:/config/NewTiddler/Tags",
+  "text": "TableOfContents",
+  "type": "text/vnd.tiddlywiki"
 }]
