@@ -1,4 +1,7 @@
 [
 {"created":"20231018003727714","tags":"TableOfContents","title":"Go 语言","modified":"20231018003740761","type":"text/vnd.tiddlywiki"},
-{"created":"20231018003744895","tags":"TableOfContents","title":"Elm 语言","modified":"20231018003756857","type":"text/vnd.tiddlywiki"}
+{"created":"20231018003744895","tags":"TableOfContents","title":"Elm 语言","modified":"20231018003756857","type":"text/vnd.tiddlywiki"},
+{"created":"20231031035221439","tags":"TableOfContents","title":"爱玩语言","modified":"20231031035237145","type":"text/vnd.tiddlywiki"},
+{"created":"20231031035333958","text":"* 在这里 [[下载|https://go.dev/doc/install]] Go 语言最新版\n* 删除之前安装的 Go 语言，通常安装在 `/usr/local/go`\n* 解压下载的文件到 `/usr/local`\n* 把 `/usr/local/go/bin` 加入到 `PATH` 环境变量\n* 第一次安装可以把 `GOPATH` 设置为 `$HOME/.local/go`，这样后面安装的 go 的包就会放入这个路径\n* 运行 `go version` 查看 Go 语言环境是否安装成功\n\n''注意''：不要覆盖 `/usr/local/go`，而是删除这个目录，然后重新安装。\n","tags":"[[Go 语言]]","title":"Go 语言：安装开发环境","modified":"20231031045447932","type":"text/vnd.tiddlywiki","bag":"default","caption":"安装开发环境"},
+{"created":"20231031035511022","text":"!! [[Linux 安装说明|https://github.com/elm/compiler/blob/master/installers/linux/README.md]]\n\nelm 是一个编译好的二进制文件，使用 gzip 压缩。直接解压并添加可执行权限就可以使用了。","tags":"[[Elm 语言]]","title":"Elm 语言：安装开发环境","modified":"20231031051237640","type":"text/vnd.tiddlywiki","bag":"default","caption":"安装开发环境"}
 ]

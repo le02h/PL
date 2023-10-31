@@ -7,9 +7,10 @@
   "text": "爱玩语言",
   "type": "text/vnd.tiddlywiki"
 }, {
-  "text": "show",
+  "text": "hide",
   "title": "$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-journal",
-  "type": "text/vnd.tiddlywiki"
+  "type": "text/vnd.tiddlywiki",
+  "bag": "default"
 }, {
   "text": "hide",
   "title": "$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/advanced-search",
@@ -42,6 +43,14 @@
   "type": "text/vnd.tiddlywiki"
 }, {
   "title": "$:/config/NewTiddler/Tags",
-  "text": "TableOfContents",
+  "type": "text/vnd.tiddlywiki",
+  "bag": "default"
+}, {
+  "title": "$:/DefaultTiddlers",
+  "text": "[[爱玩语言]]",
+  "type": "text/vnd.tiddlywiki"
+}, {
+  "text": "show",
+  "title": "$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home",
   "type": "text/vnd.tiddlywiki"
 }]
